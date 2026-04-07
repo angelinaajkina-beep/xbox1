@@ -261,3 +261,64 @@ header {
   border-radius: 4px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
+
+.specs-section {
+  background-color: #e8e8e8;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.specs-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 36px;
+  color: #435766;
+  margin-bottom: 47px;
+}
+
+.specs-grid {
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  text-align: left;
+}
+
+.spec-item {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 114%;
+  color: #435766;
+}
+
+.specs-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn-consoles {
+  border-radius: 4px;
+  width: 235px;
+  height: 52px;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 117%;
+  color: #fff;
+}
+
+.btn-mixer {
+  border-radius: 4px;
+  width: 235px;
+  height: 52px;
+  background: #8dd83d;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 117%;
+  color: #fff;
+}
