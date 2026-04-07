@@ -159,10 +159,13 @@ header {
 }
 
 .info-title {
-  font-size: 36px;
   color: #4a5568;
-  margin-bottom: 40px;
-  font-weight: 300;
+  margin-top: 99px;
+  margin-bottom: 208px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 36px;
+  color: #435766;
 }
 
 .info-buttons {
@@ -173,13 +176,28 @@ header {
 }
 
 .btn-order {
-  background-color: #9bf00b;
   color: #1a1a1a;
   padding: 12px 40px;
+  border-radius: 4px;
+  width: 170px;
+  height: 52px;
+  background: #8dd83d;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 117%;
+  color: #fff;
 }
 
 .btn-tech {
-  background-color: #4a5568;
-  color: white;
   padding: 12px 40px;
+  border-radius: 4px;
+  width: 235px;
+  height: 52px;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 117%;
+  color: #fff;
 }
