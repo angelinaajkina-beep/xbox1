@@ -322,3 +322,9 @@ header {
   line-height: 117%;
   color: #fff;
 }
+
+.footer {
+  background: #373a3c;
+  color: white;
+  padding: 60px 40px 30px;
+}
